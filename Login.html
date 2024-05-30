@@ -9,8 +9,8 @@
         </head>
     <body class="container d-flex">
         <div class="Login">
-            <div class="form-group">
             <div class="Login-container border border-secondary">
+                <header class="loginName"><h2 class="text text-light">Login</h2></header>
                 <div class="mb-4 row">
                     <label for="name"  class="form-label col-3 text-light">Name:</label>
                     <input type="text" id="name" class="form-control col" placeholder="Ex.John" aria-describedby="name">
@@ -26,7 +26,7 @@
                 <div class="form-text text-light">Must contain 8-20 characters including special characters </div>
             </div>
             <div class="px-5 mx-5">
-                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button type="submit" class="btn">Submit</button>
             </div>
         </div>
         </div>
@@ -36,14 +36,24 @@
         background-size: cover;
         background-position-y: top;
         background-repeat: 0;
-        padding-top: 15%;
-        padding-left: 50%;
         justify-content: center;
         align-items: center;
+        padding-top: 13%;
     }
     .Login-container{
-       padding: 10%;
-       backdrop-filter: blur(2px);
+       padding: 13%;
+       backdrop-filter: blur(3px);
+    }
+    .loginName{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .btn{
+        background-color: rgb(30, 224, 224);
+        color: rgb(0, 0, 0);
+    }
+    .btn:hover{
+        background-color: rgb(56, 184, 213);
     }
     </style>
     </body>
