@@ -1,5 +1,4 @@
-its my first project after I stat coding after an month
-simple yet good login Page
+Its my first simple project after I learned Bootstrap
 
 
 
